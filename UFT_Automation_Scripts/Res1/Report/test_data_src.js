@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'D:\\SQCM\\Assignment 1\\Group4_UFT_Project\\Group4_UFT_Project_Final\\Res1',namePairs:[]}]};
