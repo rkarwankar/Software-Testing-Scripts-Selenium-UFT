@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suites]">
+  <test thread-count="5" name="All Tests(failed)">
+    <classes>
+      <class name="testPackage.Test03">
+        <methods>
+          <include name="classroomGuide"/>
+        </methods>
+      </class> <!-- testPackage.Test03 -->
+      <class name="testPackage.Test04">
+        <methods>
+          <include name="classroomGuide"/>
+        </methods>
+      </class> <!-- testPackage.Test04 -->
+      <class name="testPackage.Test02">
+        <methods>
+          <include name="addCanvasTodo" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testPackage.Test02 -->
+      <class name="testPackage.Test01">
+        <methods>
+          <include name="portalLogin" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="transcriptDownload" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testPackage.Test01 -->
+      <class name="testPackage.Test05">
+        <methods>
+          <include name="academicCalendar"/>
+        </methods>
+      </class> <!-- testPackage.Test05 -->
+    </classes>
+  </test> <!-- All Tests(failed) -->
+</suite> <!-- Failed suite [All Test Suites] -->

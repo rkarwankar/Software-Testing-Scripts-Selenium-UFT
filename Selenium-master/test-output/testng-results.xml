@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T02:01:59 GMT-04:00" name="All Test Suites" finished-at="2024-03-28T02:03:58 GMT-04:00" duration-ms="119327">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T02:01:59 GMT-04:00" name="All Tests" finished-at="2024-03-28T02:03:58 GMT-04:00" duration-ms="119327">
+      <class name="testPackage.Test02">
+        <test-method signature="addCanvasTodo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.Test02@4116aac9]" started-at="2024-03-28T02:02:38 GMT-04:00" name="addCanvasTodo" data-provider="todoData" finished-at="2024-03-28T02:02:51 GMT-04:00" duration-ms="12296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Task 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2024-03-26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10:00 AM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Complete assignment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCanvasTodo -->
+        <test-method signature="addCanvasTodo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.Test02@4116aac9]" started-at="2024-03-28T02:02:51 GMT-04:00" name="addCanvasTodo" data-provider="todoData" finished-at="2024-03-28T02:03:00 GMT-04:00" duration-ms="9547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Task 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2024-03-27]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2:30 PM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prepare presentation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCanvasTodo -->
+        <test-method signature="addCanvasTodo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.Test02@4116aac9]" started-at="2024-03-28T02:03:00 GMT-04:00" name="addCanvasTodo" data-provider="todoData" finished-at="2024-03-28T02:03:10 GMT-04:00" duration-ms="9901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Task 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2024-03-28]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9:00 AM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Review notes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCanvasTodo -->
+      </class> <!-- testPackage.Test02 -->
+      <class name="testPackage.Test03">
+        <test-method signature="classroomGuide()[pri:0, instance:testPackage.Test03@62ddbd7e]" started-at="2024-03-28T02:03:10 GMT-04:00" name="classroomGuide" finished-at="2024-03-28T02:03:24 GMT-04:00" duration-ms="13424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classroomGuide -->
+      </class> <!-- testPackage.Test03 -->
+      <class name="testPackage.Test01">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.Test01@1e800aaa]" started-at="2024-03-28T02:01:59 GMT-04:00" name="setUp" finished-at="2024-03-28T02:02:01 GMT-04:00" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="portalLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.Test01@1e800aaa]" started-at="2024-03-28T02:02:01 GMT-04:00" name="portalLogin" data-provider="userData" finished-at="2024-03-28T02:02:22 GMT-04:00" duration-ms="20951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karwankar.r]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@northeastern.edu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chotuimissu@2408]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portalLogin -->
+        <test-method signature="transcriptDownload(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.Test01@1e800aaa]" started-at="2024-03-28T02:02:22 GMT-04:00" name="transcriptDownload" data-provider="userData" finished-at="2024-03-28T02:02:38 GMT-04:00" duration-ms="16390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karwankar.r]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@northeastern.edu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chotuimissu@2408]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transcriptDownload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.Test01@1e800aaa]" started-at="2024-03-28T02:03:58 GMT-04:00" name="tearDown" finished-at="2024-03-28T02:03:58 GMT-04:00" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.Test01 -->
+      <class name="testPackage.Test04">
+        <test-method signature="classroomGuide()[pri:0, instance:testPackage.Test04@74e52ef6]" started-at="2024-03-28T02:03:24 GMT-04:00" name="classroomGuide" finished-at="2024-03-28T02:03:44 GMT-04:00" duration-ms="20387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classroomGuide -->
+      </class> <!-- testPackage.Test04 -->
+      <class name="testPackage.Test05">
+        <test-method signature="academicCalendar()[pri:0, instance:testPackage.Test05@6ed3ccb2]" started-at="2024-03-28T02:03:44 GMT-04:00" name="academicCalendar" finished-at="2024-03-28T02:03:58 GMT-04:00" duration-ms="13537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- academicCalendar -->
+      </class> <!-- testPackage.Test05 -->
+    </test> <!-- All Tests -->
+  </suite> <!-- All Test Suites -->
+</testng-results>
